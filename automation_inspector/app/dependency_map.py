@@ -9,7 +9,7 @@ import httpx
 import yaml
 
 LOG = logging.getLogger(__name__)
-HA_URL = "http://supervisor/core"
+HA_URL  = os.getenv("SUPERVISOR_ENDPOINT")
 TOKEN  = os.getenv("SUPERVISOR_TOKEN")
 HEADERS = {"Authorization": f"Bearer {TOKEN}"}
 
