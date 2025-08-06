@@ -1,4 +1,4 @@
-# Automation Inspector Add‑on
+# Automation Inspector Add‑on (FORK Modded for Docker)
 
 🏠 **Home Assistant Supervisor Add‑on** that visualises every automation in your instance and the live state of every entity it depends on. Broken or unavailable entities are highlighted so you can spot problems before they break your automations.
 
